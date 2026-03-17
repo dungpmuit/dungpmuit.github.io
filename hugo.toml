@@ -14,6 +14,9 @@ theme = "PaperMod"
     imageUrl = "https://github.com/dungpmuit.png" # Tự động lấy ảnh GitHub của bạn
     imageWidth = 150
     imageHeight = 150
+[params.homeInfoParams]
+    Content = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
+
 
     [[params.profileMode.buttons]]
         name = "Xem các bài viết"
@@ -25,12 +28,12 @@ theme = "PaperMod"
 [[params.socialIcons]]
     name = "email"
     url = "mailto:dungpm9327@gmail.com"
-[[menu.main]]
-    name = "Categories"
-    url = "categories/"
-    weight = 10
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags/"
+    name = "🚩 picoCTF"
+    url = "categories/picoctf"
+    weight = 10
+[[menu.main]]
+    name = "🚩 UTCTF"
+    url = "categories/utctf"
     weight = 20
