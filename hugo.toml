@@ -15,6 +15,7 @@ theme = "PaperMod"
     ShowWordCount = true
     showFullTextContent = false
     ShowTaxonomies = true
+    showMeta = true
 [params.profileMode]
     enabled = false
     subtitle = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
@@ -39,9 +40,9 @@ theme = "PaperMod"
 
 [[menu.main]]
     name = "🚩 picoCTF"
-    url = "categories/picoctf"
+    url = "posts/picoctf"
     weight = 10
 [[menu.main]]
     name = "🚩 UTCTF"
-    url = "categories/utctf"
+    url = "posts/utctf"
     weight = 20
