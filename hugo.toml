@@ -1,6 +1,6 @@
 baseURL = "https://dungpmuit.github.io/"
 languageCode = "vi-vn"
-title = "dungpm9"
+title = "Gouenji_Blog"
 theme = "PaperMod"
 
 [params]
