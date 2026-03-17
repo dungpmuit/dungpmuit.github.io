@@ -1,8 +1,8 @@
 ---
-date = '2026-03-17T09:41:32+07:00'
-draft = false
-title = "Double Check"
-tags: ["UTCTF","Misc"]
+date: 2026-03-17T09:41:32+07:00
+draft: false
+title: "Double Check"
+tags: ["UTCTF", "Misc"]
 categories: ["UTCTF"]
 ---
 
