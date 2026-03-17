@@ -5,6 +5,7 @@ title: "Double Check"
 tags: ["UTCTF", "Misc"]
 categories: ["UTCTF"]
 hiddenFromHomePage: true
+hideSummary: true
 ---
 
 ### Double Check (100 points)
