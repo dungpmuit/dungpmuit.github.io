@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://dungpm9327.github.io/dungpm.github.io/"
+languageCode = "vi-vn"
+title = "DungPM CTF Blog"
 theme = "PaperMod"
+
+[params]
+    env = "production"
