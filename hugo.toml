@@ -8,6 +8,12 @@ theme = "PaperMod"
     description="The space has collected useful knowledge for Cyber Security"
     author="dungpmuit"
     defaultTheme="auto"
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowBreadCrumbs = true
+    ShowReadingTime = true
+    ShowWordCount = true
+    showFullTextContent = false
 [params.profileMode]
     enabled = false
     subtitle = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
@@ -15,7 +21,7 @@ theme = "PaperMod"
     imageWidth = 150
     imageHeight = 150
 [params.homeInfoParams]
-    Content = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
+    Title = "I am a student at **University of Information Technology (UIT)**. <br> Focus: *Reverse Engineering* & *Malware Analysis*."
 
 
     [[params.profileMode.buttons]]
