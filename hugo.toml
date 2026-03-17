@@ -23,10 +23,9 @@ theme = "PaperMod"
     imageWidth = 150
     imageHeight = 150
 [params.homeInfoParams]
+    enabled = true
     Title = "dungpmuit's blog"
     Content = "I am a student at **University of Information Technology (UIT)**. <br> Focus: *Reverse Engineering* & *Malware Analysis*."
-
-
     [[params.homeInfoParams.buttons]]
         name = "UTCTF"
         url = "posts/utctf"
