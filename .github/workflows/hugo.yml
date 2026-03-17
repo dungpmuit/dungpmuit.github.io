@@ -1,15 +1,26 @@
 name: Deploy Hugo site to Pages
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
+=======
+>>>>>>> 2b964cf (Lưu lại bài viết trước khi đồng bộ)
+>>>>>>> fc71240
 permissions:
   contents: read
   pages: write
   id-token: write
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
+=======
+>>>>>>> 2b964cf (Lưu lại bài viết trước khi đồng bộ)
+>>>>>>> fc71240
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,6 +30,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+<<<<<<< HEAD
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -31,17 +43,47 @@ jobs:
         # Thêm flag --gc và --minify để tối ưu hóa
         run: hugo --gc --minify
 
+=======
+<<<<<<< HEAD
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.146.0' # ÉP BUỘC BẢN MỚI
+          extended: true
+      - name: Build with Hugo
+        run: hugo --minify
+=======
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # ÉP BUỘC dùng bản mới nhất để khớp với yêu cầu của PaperMod
+          hugo-version: '0.146.0' 
+          extended: true
+
+      - name: Build with Hugo
+        # Thêm flag --gc và --minify để tối ưu hóa
+        run: hugo --gc --minify
+
+>>>>>>> 2b964cf (Lưu lại bài viết trước khi đồng bộ)
+>>>>>>> fc71240
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
+=======
+>>>>>>> 2b964cf (Lưu lại bài viết trước khi đồng bộ)
+>>>>>>> fc71240
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

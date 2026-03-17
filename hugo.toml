@@ -1,6 +1,6 @@
-baseURL = "https://dungpm9327.github.io/dungpm.github.io/"
+baseURL = "https://dungpmuit.github.io/"
 languageCode = "vi-vn"
-title = "DungPM CTF Blog"
+title = "dungpm9"
 theme = "PaperMod"
 
 [params]
