@@ -16,6 +16,6 @@ Click the website you can see that are the github-profile.
 Then I check Commits, the strange key was added 
 ![alt text](/images/utctf/image-1.png)
 Check this commit,
-**FLag:** 'utctf{...}'
+**Flag:** 'utctf{...}'
 ![alt text](/images/utctf/image-2.png)
 Finally, it is the good ctf for warm-up, haha
