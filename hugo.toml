@@ -28,11 +28,11 @@ theme = "PaperMod"
 
 
     [[params.profileMode.buttons]]
-        name = "Xem các bài viết"
-        url = "posts"
+        name = "UTCTF"
+        url = "posts/utctf"
     [[params.profileMode.buttons]]
-        name = "GitHub"
-        url = "https://github.com/dungpmuit"
+        name = "picoCTF"
+        url = "posts/picoctf"
 
 [[params.socialIcons]]
     name = "email"
