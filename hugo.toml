@@ -27,10 +27,10 @@ theme = "PaperMod"
     Content = "I am a student at **University of Information Technology (UIT)**. <br> Focus: *Reverse Engineering* & *Malware Analysis*."
 
 
-    [[params.profileMode.buttons]]
+    [[params.homeInfoParams.buttons]]
         name = "UTCTF"
         url = "posts/utctf"
-    [[params.profileMode.buttons]]
+    [[params.homeInfoParams.buttons]]
         name = "picoCTF"
         url = "posts/picoctf"
 
