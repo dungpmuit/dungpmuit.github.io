@@ -1,5 +1,5 @@
 ---
 title: "Misc"
-description:"Challanges in Misc"
+description: "Challanges in Misc"
 layout: "list"
 ---
