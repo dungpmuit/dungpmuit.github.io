@@ -17,8 +17,7 @@ theme = "PaperMod"
     ShowTaxonomies = true
     showMeta = true
     hideSummary = true
-    mainSections = ["utctf"]
-    listSections = ["posts", "utctf"]
+    mainSections = ["posts", "utctf"]
 [params.profileMode]
     enabled = false
     subtitle = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
