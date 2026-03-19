@@ -17,7 +17,7 @@ theme = "PaperMod"
     ShowTaxonomies = true
     showMeta = true
     hideSummary = true
-    mainSections = ["posts"]
+    mainSections = ["directory_only"]
 [params.profileMode]
     enabled = false
     subtitle = "I am a student at University of Information Technology - VNUHCM | Reverse Engineer & Malware Analyst"
