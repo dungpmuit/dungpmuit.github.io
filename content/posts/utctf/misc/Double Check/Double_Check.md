@@ -4,7 +4,7 @@ draft: false
 title: "Double Check"
 tags: ["UTCTF", "Misc"]
 categories: ["UTCTF"]
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hideSummary: false
 ---
 
